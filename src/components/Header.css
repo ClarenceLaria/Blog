@@ -3,6 +3,7 @@
     margin: 15px;
     font-family: poppins;
     font-size: 35px;
+    background-color: #f9f6f3;
 }
 
 .top{
@@ -11,8 +12,9 @@
   justify-content: space-between;
 }
 
+
 .header {
-  background-color: white;
+  /* background-color: white; */
   color: #333;
   padding: 10px 20px;
   display: flex;
