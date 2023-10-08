@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 15px;
+    font-family: poppins;
+    font-size: 35px;
+}
+
+.top{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: white;
+  color: #333;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-left: 30px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-item {
+  margin: 0 50px;
+  cursor: pointer;
+}
+
+.home{
+  margin-top: 100px;
+  font-weight: bold;
+  /* cursor: pointer; */
+}
+.home span{
+  color: orange;
+}
+.header-title {
+  font-size: 145px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.header-title span{
+  font-size: 145px;
+  color: #333;/*THIS IS FOR INCASE THE WEBSITE DOESNT SUPPORT TEXT-STROKE IT WILL LOOK NORMAL*/
+  -webkit-text-stroke-width: 4px;/*can use -webkit-text-stroke: 2px black; to combine the two lines to one*/ 
+  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: white;/* it fills/overrides with white to all websites that support text-stroke*/
+}
+
+/* .header-title i{
+  font-size: 100px;
+} */
+.nav-item:hover {
+  font-weight: bold; /* Change color on hover */
+}
