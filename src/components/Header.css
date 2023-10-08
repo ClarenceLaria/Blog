@@ -6,26 +6,34 @@
     background-color: #f9f6f3;
 }
 
-.top{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-
 .header {
   /* background-color: white; */
   color: #333;
   padding: 10px 20px;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  height: 50px;
+  background-color: yellow;
 }
+
+
+.top{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: yellow;
+
+}
+
+
 
 .brand {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 20px;
   margin-left: 30px;
 }
 
@@ -40,12 +48,13 @@
 }
 
 .nav-item {
-  margin: 0 50px;
+  margin: 0 20px;
   cursor: pointer;
+  transition: all .3s ease-in-out;
 }
 
 .home{
-  margin-top: 100px;
+  margin-top: 10px;
   font-weight: bold;
   /* cursor: pointer; */
 }
@@ -53,13 +62,13 @@
   color: orange;
 }
 .header-title {
-  font-size: 145px;
+  font-size: 50px;
   font-weight: bold;
   margin-top: 10px;
 }
 
 .header-title span{
-  font-size: 145px;
+  font-size: 50px;
   color: #333;/*THIS IS FOR INCASE THE WEBSITE DOESNT SUPPORT TEXT-STROKE IT WILL LOOK NORMAL*/
   -webkit-text-stroke-width: 4px;/*can use -webkit-text-stroke: 2px black; to combine the two lines to one*/ 
   -webkit-text-stroke-color: black;

@@ -1,0 +1,7 @@
+.header-title span{
+    color: #333;/*THIS IS FOR INCASE THE WEBSITE DOESNT SUPPORT TEXT-STROKE IT WILL LOOK NORMAL*/
+    -webkit-text-stroke-width: 1px;/*can use -webkit-text-stroke: 2px black; to combine the two lines to one*/ 
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: white;/* it fills/overrides with white to all websites that support text-stroke*/
+  }
+  
