@@ -4,7 +4,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="header  p-8 text-black text-sm pb-8 top-0 sticky bg-white">
+    <header className="header  p-8 text-black text-sm pb-8 top-0 sticky bg-white font-[Poppins] ">
       <div className="top flex justify-between">
         <div className="brand font-bold ">IDEA LAB</div>
         <nav className="navbar ">
@@ -34,13 +34,17 @@ const Header = () => {
         <p>SORT BY</p>
       </div>
     </div>
-  <div className="search border border-black rounded-xl flex w-48  px-2 " >
-    <input type="text" placeholder='Search' className='outline-none ' />
-    <svg className="w-6 h-6  text-gray-800 dark:text-white -ml-10000" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+  <div className="search  object-contain border border-black rounded-2xl flex w-50 px-1 py-0.5  " >
+    <input type="text" placeholder='Search' className='outline-none  ml-2 ' />
+    <svg className="searchLogo w-6 h-6 mr-2  text-gray-800 dark:text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
   </svg>
   </div>
   </div>
+
+  {}
+
+ 
   
     </header>
   );

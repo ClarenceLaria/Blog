@@ -4,4 +4,18 @@
     -webkit-text-stroke-color: black;
     -webkit-text-fill-color: white;/* it fills/overrides with white to all websites that support text-stroke*/
   }
+  .sidebar{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .title{
+    font-weight: bold;
+  }
+  .sample{
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
   
