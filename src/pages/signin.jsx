@@ -9,7 +9,7 @@ const signin = () => {
                 <div className="signinLogin w-1/2">
                 <div className="details-login h-full w-full flex flex-col gap-5   ">
                     <form action="" className=' border h-full  px-20 flex flex-col justify-center items-center'>
-                    <h1 className='text-center font-semibold text-4xl items-center flex ' >Sign up</h1>
+                    <h1 className='text-center font-semibold text-4xl items-center flex ' >Sign in</h1>
                     <div className="credentials flex flex-col mt-5 w-full gap-8  ">
                     <input className='w-full px-3 bg-transparent border-b-2 border-b-zinc-500  rounded-sm  outline-none py-1 required:  ' type="text" placeholder='User Name' />
                     <input className='w-full px-3 bg-transparent border-b-2  border-b-zinc-500 rounded-sm  outline-none py-1 required:  ' type="email" placeholder='Email' />
