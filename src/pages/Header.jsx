@@ -1,18 +1,18 @@
 import React from 'react';
 // import './Header.css';
-
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="header  p-8 text-black text-sm pb-8 top-0 sticky bg-white font-[Poppins] ">
       <div className="top flex justify-between">
-        <div className="brand font-bold ">IDEA LAB</div>
+        <div className="brand font-bold "><Link to="/blog">IDEA LAB</Link></div>
         <nav className="navbar ">
           <ul className="nav-list  gap-10 flex justify-between">
-            <li className="nav-item cursor-pointer hover:text-orange-400 transition-all ease-in-out" >About Us</li>
-            <li className="nav-item cursor-pointer hover:text-orange-400 transition-all ease-in-out">Services</li>
-            <li className="nav-item cursor-pointer hover:text-orange-400 transition-all ease-in-out">Portfolio</li>
-            <li className="nav-item cursor-pointer hover:text-orange-400 transition-all ease-in-out" >Blog</li>
+            <li className="nav-item cursor-pointer hover:text-orange-400 transition-all ease-in-out" ><Link to="/signup">Sign Up</Link></li>
+            <li className="nav-item cursor-pointer hover:text-orange-400 transition-all ease-in-out"><Link to="/signin">Sign In</Link></li>
+            {/* <li className="nav-item cursor-pointer hover:text-orange-400 transition-all ease-in-out">Portfolio</li> */}
+            <li className="nav-item cursor-pointer hover:text-orange-400 transition-all ease-in-out" ><Link to="/blog">Blog</Link></li>
             <img src="/src/images/lionel.jpeg" alt="messi Profile" className='rounded-2xl w-8 h-8 cursor-pointer object-cover ' />
           </ul>
         </nav>

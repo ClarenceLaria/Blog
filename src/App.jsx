@@ -1,7 +1,7 @@
 
 import './App.css'
 
-import Header from './components/Header.jsx';
+import Header from './pages/Header.jsx';
 import './App.css'; // Import your application-wide CSS file for styling if needed
 
 const App = () => {
