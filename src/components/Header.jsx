@@ -9,10 +9,11 @@ const Header = () => {
         <div className="brand font-bold ">IDEA LAB</div>
         <nav className="navbar ">
           <ul className="nav-list  gap-10 flex justify-between">
-            <li className="nav-item cursor-pointer hover:text-orange-400 transition-all ease-in-out">About Us</li>
+            <li className="nav-item cursor-pointer hover:text-orange-400 transition-all ease-in-out" >About Us</li>
             <li className="nav-item cursor-pointer hover:text-orange-400 transition-all ease-in-out">Services</li>
             <li className="nav-item cursor-pointer hover:text-orange-400 transition-all ease-in-out">Portfolio</li>
             <li className="nav-item cursor-pointer hover:text-orange-400 transition-all ease-in-out" >Blog</li>
+            <img src="/src/images/lionel.jpeg" alt="messi Profile" className='rounded-2xl w-8 h-8 cursor-pointer object-cover ' />
           </ul>
         </nav>
       </div>

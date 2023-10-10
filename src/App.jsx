@@ -1,66 +1,63 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
-import React from 'react';
 import Header from './components/Header.jsx';
 import './App.css'; // Import your application-wide CSS file for styling if needed
 
 const App = () => {
   return (
-    <div className="app-container font-[Poppins, sans-serif] ">
+    <div className="app-container font-['Poppins', sans-serif] ">
       <Header />
       {/* Rest of your application */
         <div className="details flex p-5 ">
           <div className="blog w-4/5 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 "  >
 
 <div className=" w-80 sample  px-4 shadow-md rounded-md py-3 items-center flex flex-col sm:justify-center ">
-  <img className='w-60' src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf83b9578c2cc8c82/6426d520c43e6b68f5bd82cc/GOAL_-_Blank_WEB_-_Facebook_-_2023-03-31T134149.308.png?auto=webp&format=pjpg&width=3840&quality=60" alt=" " />
+  <img className='w-60' src="/src/images/lionel.jpeg" alt=" " />
   <p className='title'>Lionel Messi</p>
   <p>The Greatest of All Time </p>
 </div>
 
 <div className="w-80 sample justify-around px-4 shadow-md rounded-md py-3 items-center flex flex-col ">
-  <img className='w-60' src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf83b9578c2cc8c82/6426d520c43e6b68f5bd82cc/GOAL_-_Blank_WEB_-_Facebook_-_2023-03-31T134149.308.png?auto=webp&format=pjpg&width=3840&quality=60" alt=" " />
+  <img className='w-60' src="/src/images/lionel.jpeg"  alt=" " />
   <p className='title'>Lionel Messi</p>
   <p>The Greatest of All Time </p>
 </div>
 
 <div className="w-80 sample justify-around px-4 shadow-md rounded-md py-3 items-center flex flex-col ">
-  <img className='w-60' src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf83b9578c2cc8c82/6426d520c43e6b68f5bd82cc/GOAL_-_Blank_WEB_-_Facebook_-_2023-03-31T134149.308.png?auto=webp&format=pjpg&width=3840&quality=60" alt=" " />
+  <img className='w-60' src="/src/images/lionel.jpeg"  alt=" " />
   <p className='title'>Lionel Messi</p>
   <p>The Greatest of All Time </p>
 </div>
 
 <div className="w-80 sample justify-around px-4 shadow-md rounded-md py-3 items-center flex flex-col ">
-  <img className='w-60' src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf83b9578c2cc8c82/6426d520c43e6b68f5bd82cc/GOAL_-_Blank_WEB_-_Facebook_-_2023-03-31T134149.308.png?auto=webp&format=pjpg&width=3840&quality=60" alt=" " />
+  <img className='w-60' src="/src/images/lionel.jpeg"  alt=" " />
   <p className='title'>Lionel Messi</p>
   <p>The Greatest of All Time </p>
 </div>
 
 <div className="w-80 sample justify-around px-4 shadow-md rounded-md py-3 items-center flex flex-col ">
-  <img className='w-60' src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf83b9578c2cc8c82/6426d520c43e6b68f5bd82cc/GOAL_-_Blank_WEB_-_Facebook_-_2023-03-31T134149.308.png?auto=webp&format=pjpg&width=3840&quality=60" alt=" " />
+  <img className='w-60'src="/src/images/lionel.jpeg"  alt=" " />
   <p className='title'>Lionel Messi</p>
   <p>The Greatest of All Time </p>
 </div>
 
 <div className="w-80 sample justify-around px-4 shadow-md rounded-md py-3 items-center flex flex-col ">
-  <img className='w-60' src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf83b9578c2cc8c82/6426d520c43e6b68f5bd82cc/GOAL_-_Blank_WEB_-_Facebook_-_2023-03-31T134149.308.png?auto=webp&format=pjpg&width=3840&quality=60" alt=" " />
+  <img className='w-60' src="/src/images/lionel.jpeg"  alt=" " />
   <p className='title'>Lionel Messi</p>
   <p>The Greatest of All Time </p>
 </div>
 
 
 <div className="w-80 sample justify-around px-4 shadow-md rounded-md py-3 items-center flex flex-col ">
-  <img className='w-60' src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf83b9578c2cc8c82/6426d520c43e6b68f5bd82cc/GOAL_-_Blank_WEB_-_Facebook_-_2023-03-31T134149.308.png?auto=webp&format=pjpg&width=3840&quality=60" alt=" " />
+  <img className='w-60' src="/src/images/lionel.jpeg"  alt=" " />
   <p className='title' >Lionel Messi</p>
   <p>The Greatest of All Time </p>
 </div>
 
 
 <div className="w-80 sample justify-around px-4 shadow-md rounded-md py-3 items-center flex flex-col ">
-  <img className='w-60' src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf83b9578c2cc8c82/6426d520c43e6b68f5bd82cc/GOAL_-_Blank_WEB_-_Facebook_-_2023-03-31T134149.308.png?auto=webp&format=pjpg&width=3840&quality=60" alt=" " />
+  <img className='w-60'src="/src/images/lionel.jpeg"  alt=" " />
   <p className='title'>Lionel Messi</p>
   <p>The Greatest of All Time </p>
 </div>
@@ -94,22 +91,7 @@ const App = () => {
     </div>
     
 </div>
-{/* <div className="post w-100% flex gap-3 shadow-lg p-5 rounded-md justify-center items-center ">
-    <img className='w-16 rounded-md object-cover ' src="https://i.cbc.ca/1.4233350.1501762741!/fileImage/httpImage/soccer-barcelona-neymar.jpg" alt="Neymar" />
-    <div className="words flex flex-col">
-    <p className='title' >Neymar Jr</p>
-    <p className='details' >The Star boy</p>
-    </div>
-    
-</div>
-<div className="post w-100% flex gap-3 shadow-lg p-5 rounded-md justify-center items-center ">
-    <img className='w-16 rounded-md object-cover ' src="https://i.cbc.ca/1.4233350.1501762741!/fileImage/httpImage/soccer-barcelona-neymar.jpg" alt="Neymar" />
-    <div className="words flex flex-col">
-    <p className='title' >Neymar Jr</p>
-    <p className='details' >The Star boy</p>
-    </div>
-    
-</div> */}
+
 </div>
 
 </div> 
