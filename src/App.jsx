@@ -57,7 +57,7 @@ const App = () => {
 
 
 <div className="w-80 sample justify-around px-4 shadow-md rounded-md py-3 items-center flex flex-col ">
-  <img className='w-60'src="/src/images/lionel.jpeg"  alt=" " />
+  <img className='w-60'src="/src/images/lionel.jpeg" jfhfh alt=" " />
   <p className='title'>Lionel Messi</p>
   <p>The Greatest of All Time </p>
 </div>
