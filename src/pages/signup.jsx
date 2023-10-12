@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link, /*Outlet*/ } from 'react-router-dom'
 const signup = () => {
   return (
     
@@ -14,10 +14,11 @@ const signup = () => {
                     <form action="" className=' border h-full  px-20 flex flex-col justify-center items-center'>
                     <h1 className='text-center font-semibold text-4xl items-center flex ' >Sign up</h1>
                     <div className="credentials flex flex-col mt-5 w-full gap-8  ">
-                    <input className='w-full px-3 bg-transparent border-b-2 border-b-zinc-500  rounded-sm  outline-none py-1 required:  ' type="text" placeholder='User Name' />
-                    <input className='w-full px-3 bg-transparent border-b-2  border-b-zinc-500 rounded-sm  outline-none py-1 required:  ' type="email" placeholder='Email' />
-                    <input className='w-full px-3 bg-transparent border-b-2  border-b-zinc-500 rounded-sm  outline-none py-1 required:  ' type="password" placeholder='Password' />
-                    <input className='w-full px-3 bg-transparent border-b-2  border-b-zinc-500 rounded-sm  outline-none py-1 required:  ' type="Password" placeholder='Confirm Password' />
+                    <input className='w-full px-3 bg-transparent border-b-2 border-b-zinc-500  rounded-sm  outline-none py-1 required:  ' type="text" placeholder='User Name' required/>
+                    <input type="text" id="email" placeholder="Email" /*pattern=".+@example\.com"*/ required className='w-full px-3 bg-transparent border-b-2  border-b-zinc-500 rounded-sm  outline-none py-1 required:  '/>
+                    {/* <input className='w-full px-3 bg-transparent border-b-2  border-b-zinc-500 rounded-sm  outline-none py-1 required:  ' type="email" placeholder='Email' /> */}
+                    <input className='w-full px-3 bg-transparent border-b-2  border-b-zinc-500 rounded-sm  outline-none py-1 required:  ' type="password" placeholder='Password' required/>
+                    <input className='w-full px-3 bg-transparent border-b-2  border-b-zinc-500 rounded-sm  outline-none py-1 required:  ' type="Password" placeholder='Confirm Password' required/>
                     <div className="forgotRemember flex justify-between  w-full px-2 ">
                         <div className="forgot">
                             
@@ -25,33 +26,14 @@ const signup = () => {
                         </div>
 
                     </div>
-                    <button className='w-full bg-orange-500 -mt-4 py-2 rounded-3xl text-white hover:bg-orange-500/80 transition-all'>Sign up</button>
-                   <p className='flex justify-end gap-1 px-2 -mt-5'>Already have an account. <span> <a href="/src/pages/signin.jsx" className=' no-underline transition-all ease-in-out text-orange-500 hover:text-black  ' > Sign in</a> </span></p>
+                    <button type="submit" value="Submit" className='w-full bg-orange-500 -mt-4 py-2 rounded-3xl text-white hover:bg-orange-500/80 transition-all'>Sign up</button>
+                   <p className='flex justify-end gap-1 px-2 -mt-5'>Already have an account. <span> <Link to="/signin" className=' no-underline transition-all ease-in-out text-orange-500 hover:text-black  '> Sign in</Link> </span></p>
                 </div>
                     </form>
                 
                 </div>
 
-                <div className="details-signin hidden h-full w-full flex flex-col gap-5   ">
-                    <form action="" className=' border h-full  px-20 flex flex-col justify-center items-center'>
-                    <h1 className='text-center font-semibold text-4xl items-center flex ' >Sign in</h1>
-                    <div className="credentials flex flex-col mt-5 w-full gap-8  ">
-                    <input type="text" placeholder='User Name' className="w-full px-3 bg-transparent border-b-2 border-b-zinc-500  rounded-sm  outline-none py-1"  />
-                    <input type="password" placeholder='Password' className="w-full px-3 bg-transparent border-b-2 border-b-zinc-500  rounded-sm  outline-none py-1"  />                   <div className="forgotRemember flex justify-between  w-full px-2 ">
-                        <div className="forgot">
-                            
-                    <input type="checkbox" name="remember" id="remember" className=' accent-orange-500 mr-1 cursor-pointer' />Remember me
-                        </div>
-                        <p className='text-blue-500 hover:underline cursor-pointer ' >forgot password?</p>
-                    </div>
-                    <button className='w-full bg-orange-500 -mt-4 py-2 rounded-3xl text-white hover:bg-orange-500/80 transition-all'>Sign up</button>
-                   <p className='flex justify-end gap-1 px-2 -mt-5'>Don't have an account. <span> <a href="/src/pages/signin.jsx" className=' no-underline transition-all ease-in-out text-orange-500 hover:text-black  ' > Sign up</a> </span></p>
                 </div>
-                    </form>
-                
-                </div>
-                        
-                    </div>
                 
             </div>
             
@@ -62,4 +44,4 @@ const signup = () => {
   )
 }
 
-export default signup
+export default signup;
