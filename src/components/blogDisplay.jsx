@@ -1,5 +1,5 @@
 import React from 'react'
-import profileDetails from './profileDetails'
+import profileDetails from './ProfileDetails'
 
 function blogDisplay (props) {
     const title = props.title

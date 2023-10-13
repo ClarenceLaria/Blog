@@ -1,7 +1,6 @@
 import React from 'react';
 // import './Header.css';
 import { Link } from "react-router-dom";
-import Title from './Title.jsx';
 
 const Header = () => {
   return (
@@ -18,7 +17,6 @@ const Header = () => {
           </ul>
         </nav>
       </div>
-      <Title/>
     </header>
   );
 };

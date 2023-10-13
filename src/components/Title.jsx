@@ -4,7 +4,7 @@ function Title() {
   return (
     <>
         <div className="home justify-center text-sm flex mt-10 font-bold"> <span className="text-orange-300">HOME</span>/BLOG</div>
-            <div className="header-title justify-center flex gap-4 text-3xl lg:text-6xl  font-bold">IDEAS <span className=""> THAT</span> INS{/*<i>&#x2197;</i>*/}PIRE</div>
+            <div className="header-title justify-center flex gap-4 text-3xl lg:text-6xl  font-bold">IDEAS <span className=""> THAT</span> INSPIRE</div>
             <div className="toggle flex flex-col sm:flex-row  justify-between items-baseline  gap-2  w-full">
             <div className="left-bar flex gap-8 items-center mb-3">
             <div className="text flex lg:flex-row  gap-6">
