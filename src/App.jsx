@@ -6,6 +6,7 @@ import Blog from './pages/blog.jsx'
 import Signup from "./pages/signup.jsx";
 import Signin from "./pages/signin.jsx";
 import Profile from "./pages/profile.jsx";
+import ReadBlog  from './pages/readBlog';
 
 class App extends Component {
   render(){
@@ -22,6 +23,7 @@ class App extends Component {
                 <Route exact path='/signup' element={<Signup />}></Route>
                 <Route exact path='/signin' element={<Signin />}></Route>
                 <Route exact path='/profile' element={<Profile />}></Route>
+                <Route exact path='/read' element={<ReadBlog />}></Route>
         </Routes>
         </div>
       </Router>
