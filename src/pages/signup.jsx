@@ -5,13 +5,13 @@ const signup = () => {
     
          <div className='w-screen h-screen flex flex-col items-center justify-center p-4  ' >
             <div className="form h-full w-full flex">
-                <div className="pic h-full w-1/2">
+                <div className="pic h-full w-full hidden  md:block lg:block xl:block">
                     <img src=" /src/images/blogger.jpg " alt="signup image" className='h-full w-full object-cover contrast-150 ' />
                     
                 </div>
-                <div className="signinLogin w-1/2">
-                <div className="details-login h-full w-full flex flex-col gap-5   ">
-                    <form action="" className=' border h-full  px-24 flex flex-col justify-center'>
+                <div className="signinLogin px-2 w-full sm:1/2 md:1/2 lg:1/2 xl:1/2">
+                <div className="details-login h-full w-full flex flex-col gap-2   ">
+                    <form action="" className=' border h-full   sm:px-4 lg:px-20 xl:px-24 flex flex-col justify-center'>
                     <h1 className=' font-semibold text-4xl items-center flex  ' >Sign up</h1>
                     <div className="credentials flex flex-col mt-5 w-full gap-8  ">
                     <input className='w-full bg-transparent border-b-2 border-b-zinc-500  rounded-sm  outline-none py-1 required:  ' type="text" placeholder='User Name' required/>

@@ -9,10 +9,10 @@ function Profile(props) {
     
   return (
    
-   <div className='w-4/5 mx-auto h-32 flex object-cover items-end justify-between  '>
+   <div className='w-4/5 mx-auto h-32 flex object-cover items-end justify-between mb-6 -mt-12 '>
     <div className='flex gap-3'>
     <img className='image rounded-full h-20 w-20 object-cover ' src={image} alt="" />
-     <div className='flec flex-col'>
+     <div className='flec flex-col mt-8'>
      
       <p className='Username font-semibold text-sm '>{Username}</p> 
       <p className='post text-sm '>{Post}</p>

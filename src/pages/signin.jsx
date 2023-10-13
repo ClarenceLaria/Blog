@@ -6,19 +6,19 @@ const signin = () => {
          <div className='w-screen h-screen flex flex-col items-center justify-center  p-4 ' >
             <div className="form h-full w-full flex">
                
-                <div className="signinLogin w-1/2">
+                <div className="signinLogin px-2 w-full sm:1/2 md:1/2 lg:1/2 xl:1/2 2xl:1/2">
                     
                 <div className="details-login h-full w-full flex flex-col gap-5   ">
                     
-                    <form action="" method="get" className=' border h-full  px-24 flex flex-col justify-center'>
+                    <form action="" method="get" className=' border h-full sm:px-4 lg:px-20 xl:px-24 flex flex-col justify-center'>
 
                     <h1 className=' font-semibold text-4xl' >Sign in</h1>
-                    <p className='text-gray-400' >Welcome back! Please enter your details.</p>
+                    <p className='text-gray-400 ' >Welcome back! Please enter your details.</p>
                     <div className="credentials flex flex-col mt-5 w-full gap-8  ">
                     <input className='w-full bg-transparent border-b-2 border-b-zinc-500  rounded-sm  outline-none py-1 required:  ' type="text/ email" placeholder='User Name/ Email' required/>
-                    {/* <input className='w-full px-3 bg-transparent border-b-2  border-b-zinc-500 rounded-sm  outline-none py-1 required:  ' type="email" placeholder='Email' /> */}
+                 
                     <input className='w-full  bg-transparent border-b-2  border-b-zinc-500 rounded-sm  outline-none py-1 required:  ' type="password" placeholder='Password' required/>
-                    {/* <input className='w-full px-3 bg-transparent border-b-2  border-b-zinc-500 rounded-sm  outline-none py-1 required:  ' type="Password" placeholder='Confirm Password' /> */}
+                 
                     <div className="forgotRemember flex justify-between  w-full px-2 ">
                         <div className="forgot">
                         <p className='text-blue-500 hover:underline cursor-pointer ' >forgot password?</p>        
@@ -30,18 +30,8 @@ const signin = () => {
                 </div>
                     </form>
                 </div>
-                <div className="details-signin hidden h-full w-full flex flex-col gap-5   ">
-                    <form action="" className=' border h-full  px-20 flex flex-col justify-center items-center'>
-                    <div className="credentials flex flex-col mt-5 w-full gap-8  ">
-                    <div className="forgotRemember flex justify-between  w-full px-2 ">
-                        <div className="forgot">
-                        </div>
-                    </div>
-                     </div>
-                    </form>
                 </div>
-                </div>
-                <div className="pic h-full w-1/2">
+                <div className="pic h-full w-full hidden sm:block md:block lg:block xl:block ">
                     <img src=" /src/images/blogger.jpg " alt="signup image" className='h-full w-full object-cover contrast-150 ' />
                 </div>
             </div>
