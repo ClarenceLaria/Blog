@@ -15,7 +15,7 @@ function Card(props) {
         scale: 1.1,
         transition: { duration: 0.3 },
       }}
-    className='object-cover w-full hover:shadow-xl hover:rounded-2xl 'src={image}  alt=" " />
+    className='object-cover w-full hover:shadow-xl hover:rounded-2xl cursor-pointer 'src={image}  alt=" " />
     <div className='pt-6'>
     <p className='title'>{title}</p>
     <p>{description}</p>
