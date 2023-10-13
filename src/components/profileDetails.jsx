@@ -13,7 +13,7 @@ function Profile(props) {
       <p className='Username'>{Username}</p> 
       <p className='post'>{Post}</p>
       <p className='userDetails'>{userDetails}</p>
-      <button className=''>{activities}</button>
+      <button className='activities'>{activities}</button>
     </div>
   )
 }
