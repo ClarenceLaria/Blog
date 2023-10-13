@@ -3,17 +3,23 @@ import React from 'react'
 function Profile(props) {
     const image = props.image
     const Username = props.Username
-    const Post = props.Post
+    const Post = props.post
     const userDetails = props.userDetails
     const date = props.date
-    const activities = props.activities
+    
   return (
-    <div>
-      <img className='profilePic' src={image} alt="" />
-      <p className='Username'>{Username}</p> 
-      <p className='post'>{Post}</p>
-      <p className='userDetails'>{userDetails}</p>
-      <button className='activities'>{activities}</button>
+   
+   <div className='w-4/5 mx-auto h-32 flex object-cover items-end justify-between  '>
+    <div className='flex gap-3'>
+    <img className='image rounded-full h-20 w-20 object-cover ' src={image} alt="" />
+     <div className='flec flex-col'>
+     
+      <p className='Username font-semibold text-sm '>{Username}</p> 
+      <p className='post text-sm '>{Post}</p>
+      <p className='userDetails text-sm '>{userDetails}</p>
+     </div>
+    </div>
+      <button className='bg-orange-500 p-1 px-2 text-white rounded-lg'>Activities</button>
     </div>
   )
 }
