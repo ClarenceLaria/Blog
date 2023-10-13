@@ -19,6 +19,18 @@
   background-color: yellow;
 }
 
+
+.top{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: yellow;
+
+}
+
+
+
 .brand {
   font-weight: bold;
   font-size: 20px;
